@@ -1,0 +1,32 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/login/login",
+    "pages/buy/buy",
+    "pages/buy/buy-detail/buy-detail",
+    "pages/publish/publish"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "选购",
+        "iconPath": "pages/images/buy.png",
+        "selectedIconPath": "pages/images/buy.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "pages/images/up.png",
+        "selectedIconPath": "pages/images/up.png"
+      }
+    ],
+    "selectedColor":"#FD6975",
+    "backgroundColor":"#34A1E4",
+    "borderStyle":"white"
+  }
+
+}

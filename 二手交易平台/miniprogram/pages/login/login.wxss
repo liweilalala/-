@@ -1,0 +1,27 @@
+page{
+  background: url('http://s8.sinaimg.cn/bmiddle/001HD5Xhzy77LyISNMc80');
+  background-size:125%;
+
+}
+.head{
+  height: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.userinfo-avatar {
+  width: 300rpx;
+  height: 300rpx;
+  margin-top: 100rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}
+.b{
+  width: 250px;
+  margin-top: 250px;
+  }
+.b1{
+  width: 250px;
+}

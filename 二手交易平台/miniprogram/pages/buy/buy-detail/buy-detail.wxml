@@ -1,0 +1,25 @@
+<block wx:for="{{queryResult}}" wx:for-item="item" wx:key="key">
+<image class="image" src="{{item.image}}" mode="aspectFill"></image>
+  <view>
+    
+    <view style="background-color:white;width:100%;">
+    <text wx:if="{{item.price}}" class="fuhao" style="color:red;">¥</text>
+      <text class="price" style="color:red;">{{item.price}}</text>
+      <text wx:if="{{!item.price}}" class="fuhao" style="color:red;">价格面议</text>
+      </view>
+      <view style="background-color:white;width:100%;">
+      <text class="title" >{{item.title}}</text>
+    </view>
+    
+    <view style="background-color:white;width:100%;margin-top: 10rpx;">
+      <text class="describe" style="font-size:30rpx;margin-left: 15rpx;">{{item.describe}}</text>
+    </view>
+    <view class="information">
+      <image class="head" src="{{item.head}}"></image>
+      <text class="name">{{item.name}}</text>
+      <view>
+      <text class="name" style="font-size:25rpx" selectable="ture">联系方式：{{item.adress}}</text>
+      </view>
+    </view>
+  </view>
+</block>

@@ -1,0 +1,96 @@
+.origin {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  height: 80rpx;
+  border: 2px rgba(15, 14, 14, 0.753) solid;
+  
+}
+.choose{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 210rpx;
+}
+.input {
+  height: 80rpx;
+  width: 80%;
+  border: 1px rgba(15, 14, 14, 0.301) solid;
+}
+.priCE{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 80rpx;
+ margin-top: 2rpx;
+}
+.background {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.textarea-wrp {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.mid{
+  width: 50%;
+margin-bottom: 20rpx;
+margin-left: 27%;
+
+}
+.images{
+  margin-left:10rpx;
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #f1f1f1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-left:10rpx;
+}
+.button {
+  display: flex; 
+  height: 80rpx;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.input2{
+  height: 80rpx;
+  width: 80%;
+  margin-left:10rpx;
+ 
+}
+.button-hover {
+  background-color: rgba(225, 224, 235, 0.055);
+}
+
+.ensure {
+  height: 99.8%;
+  margin-top: 0.1%;
+  width: 20%;
+  background-color: white;
+  margin-right: 1rpx;
+  border-width: 0px;
+}
+
+.uploader-text {
+  width: 180rpx;
+  margin-right: 185rpx;
+}
+
+.up {
+  margin-top: 10rpx;
+  margin-left: 83%;
+  width: 16%;
+  height: 8%;
+  font-size: 27rpx;
+  background-color: #197AC5
+}

@@ -1,0 +1,80 @@
+page {
+  background-color: #f1f1f1;
+}
+
+.goods {
+  background-color: rgb(255, 255, 255);
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 450rpx;
+  border-radius: 3%;
+}
+
+.head {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+
+.name {
+  margin-left: 10rpx;
+  margin-top: 0rpx;
+  font-size: 25rpx;
+}
+
+.txtblock {
+  margin-left: 5px;
+  width: 245rpx;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 3%;
+  border: 1px rgba(15, 14, 14, 0.753) solid;
+}
+
+.price {
+  margin-left: 5rpx;
+  vertical-align: middle;
+  font-size: 50rpx;
+}
+
+.fuhao {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.title {
+  font-size: 54rpx;
+  font-weight: 700;
+  color: rgb(27, 27, 27);
+  width: 245rpx;
+  word-break: break-all;
+}
+
+.Title {
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.image {
+  width: 450rpx;
+  height: 450rpx;
+  border-radius: 3%;
+}
+.pageschange{
+  display: flex;
+  height:70rpx;
+  left:0;
+  right:0;
+}
+.page{
+  flex:1;
+  text-align:center;
+  height:70rpx;
+  font-size: smaller;
+  font-weight: bold;
+}

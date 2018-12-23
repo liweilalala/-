@@ -1,0 +1,43 @@
+<form bindsubmit="formSubmit2">
+  <view style="height:450rpx;">
+    <view wx:if="{{title}}">
+
+      <textarea show-confirm-bar="false" placeholder="详细的商品介绍：" class="textarea-wrp" value='{{b}}' auto-focus="true" name="describe" />
+
+      <view class="choose">
+
+        <view class="images" bindtap="doUpload">
+          <image style="margin-top:20rpx;width:100rpx;height:100rpx;  background-color: #f1f1f1;" mode="aspectFit" src='../images/camera.png'></image>
+          <text style="color:rgb(140,140,140);font-size:30rpx;margin-top:15rpx;">选择图片</text>
+        </view>
+        <image mode="aspectFill" src='{{tempFilePaths}}' class="Image"></image>
+      </view>
+
+      <view class="priCE">
+        <switch style="margin-top:10rpx;margin-left:10rpx;" checked bindchange="switchChange" />
+        <input wx:if="{{dovison}}" placeholder="在此输入您商品的价格：" name="price" class="input2" value='{{d}}' type='number' />
+        <text style="color:rgb(140,140,140);margin-top:13rpx;margin-left:10rpx;" wx:if="{{!dovison}}">价格面议</text>
+      </view>
+      <view class="priCE">
+        <input placeholder="在此输入您的联系方式：" name="adress" class="input2" value='{{e}}' />
+      </view>
+      <button class="up" formType="submit">
+        <text style="color:white;font-size:30rpx;">发布</text>
+      </button>
+    </view>
+  </view>
+</form>
+<form bindsubmit="formSubmit1">
+  <view wx:if="{{!title}}">
+    <view class="mid">
+      <text>请输入您商品的名称</text>
+    </view>
+    <view class="origin">
+
+      <input placeholder="名称" name="title" class="input" value='{{a}}' />
+
+      <button class="ensure" formType="submit">OK</button>
+
+    </view>
+  </view>
+</form>

@@ -1,0 +1,7 @@
+<view class="background">
+  <view class="head">
+  <image  wx:if="{{avatarUrl}}"class="userinfo-avatar" style="background-image: url({{avatarUrl}})"             mode="aspectFit"></image>
+  </view>
+  <button class="b" bindtap="next"open-type="getUserInfo">获取微信信息</button>
+  <button wx:if="{{avatarUrl}}"class="b1" bindtap="next1">登陆</button>
+</view>
